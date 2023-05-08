@@ -1,0 +1,9 @@
+Le mot de passe pour ce niveau  est stocké dans le fichier data.txt , où toutes les lettres minuscules (az)
+ et majuscules (AZ) ont été pivotées de 13 positions,alors on utilise la commande " cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'":
+    -"cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'" et récupérer le mot de passe,
+    -exit
+    -ssh bandit12@bandit.labs.overthewire.org -p 2220
+    -mot de passe Le mot de passe stocké dans le fichier data.txt , où toutes les lettres minuscules (az) et majuscules (AZ) 
+    ont été pivotées de 13 positions (JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv).
+
+

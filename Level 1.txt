@@ -1,0 +1,14 @@
+ Dans ce niveau il faut récupérer un mot de passe dans un fichier appelé readme qui se situe dans le répertoire home,alors on va utiliser
+ la commande "cat readme" pour trouver ce dernier . Et il faut d'abord sortir de "bandit0" avant de connecter sur "bandit1"en utilisant la
+ commande "exit" et  après ,on va utiliser le mot de passe pour  connecter sur bandit1.Et on va réutiliser la commande ssh ,mais il faut changer
+ le nom d'utilisateur en "bandit1".Alors pour effectuer cela , il faut écrire sur la commande "ssh bandit1@bandit.labs.overthewire.org -p 2220 "et le mot de passe 
+ c'est le mot de passe qu'on a trouver dans le fichier readme:
+     -ls:pour voir les listes des fichiers existant,
+     -"cat readme" et récupérer le mot de passe ,
+     -exit,
+     -ssh bandit1@bandit.labs.overthewire.org -p 2220 
+     -mot de passe : est le mot de passe qu'on a trouver dans le fichier readme (NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL)
+
+
+
+

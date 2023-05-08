@@ -1,0 +1,12 @@
+Même étape du niveau 4 ,c'est a dire on se place dans le répertoire "inhere" avec la commande "cd inhere" .
+Mais dans ce dossier il existe plusieur fichier ,et parmis c'est fichier il y a un fichier "ASCII" c'est à dire lisible par l'homme et
+c'est dans ce fichier que le mot de passe se situe .Pour identifier ce fichier,on va utiliser la commande "file ./*",
+et une fois qu'on a trouvé le fichier ,on va récupérer le mot de passe avec la commande "cat ./-file7".File7 c'est le nom du fichier ASCII:
+     -cd inhere,
+     -file ./* ,
+     -"cat ./-file7" et récuperer le mot de passe,
+     -exit ,
+     -ssh bandit5@bandit.labs.overthewire.org -p 2220,
+     -mot de passe :le mot de passe qu'on a trouver dans le fichier ASCII (lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR).
+ 
+

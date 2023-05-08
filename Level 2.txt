@@ -1,0 +1,12 @@
+ Même étape du level 1 mais pour récupérer le mot de passe on utilise la commande "cat ./-" ,
+ le " - " est le nom  du fichier dont le mot de passe se situe . Et le nom d'utilisateur c'est bandit2:
+     -ls,
+     -"cat ./-" et récupérer le mot de passe,
+     -exit,
+     -"ssh bandit2@bandit.labs.overthewire.org -p 2220",
+     -mot de passe:le mot de passe qu'on a trouvé dans le fichier "-" (rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi).
+
+
+
+
+

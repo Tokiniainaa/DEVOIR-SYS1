@@ -1,0 +1,8 @@
+Le mot de passe pour ce niveau  est stocké dans le fichier data.txt dans l'une des rares chaînes lisibles par l'homme,
+ précédé de plusieurs caractères '=',alors pour l'identifier on utilise la commande "string data.txt":
+   -"string data.txt" et récuperer le mot de passe,
+   -exit,
+   -ssh bandit10@bandit.labs.overthewire.org -p 2220,
+   -mot de passe :mot de passe stocké dans le fichier data.txt dans l'une des rares chaînes lisibles par l'homme,
+    précédé de plusieurs caractères '='(G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s)
+

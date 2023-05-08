@@ -1,0 +1,6 @@
+Pour ce niveau, on n'obtient pas le mot de passe , mais on obtient une clé
+ SSH privée qui peut être utilisée pour  connecter au niveau suivant, donc on utilise la commande suivant :
+      - scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private (récupérer la clé) .
+      - ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220 (se connecter à bandit14 avec la clé)
+      - et pour afficher le mot de passe on utilise la commande "cat /etc/bandit_pass/bandit14" (fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq)
+

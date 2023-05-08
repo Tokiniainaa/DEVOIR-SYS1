@@ -1,0 +1,10 @@
+Toujours la même démarche mais le mot de passe est stocké dans un fichier quelque part
+mais toujour dans le dossier inhere ,donc il faut entrer dans le dossier inhere avec la commande 
+"cd inhere"et après entrer dans un fichier qui possède  les propriétés suivantes (lisible par l'homme 
+(ascii),1033 octets de taille,non exécutable ) et pour effectuer cela on utilise la commande "cat $(find . -type f  -size 1033c)" :
+      -cd inhere,
+      -"cat $(find . -type f  -size 1033c)"et récupérer le mot de passe,
+       -exit ,
+       - ssh bandit6@bandit.labs.overthewire.org -p 2220,
+        -mot de passe :le mot de passe qu'on a trouver dans le fichier qui respecte la propriete (P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU),
+

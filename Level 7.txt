@@ -1,0 +1,11 @@
+Même étape du niveau précédente,mais Le mot de passe pour ce niveau  est stocké quelque part sur le serveur et possède toutes les propriétés suivantes 
+ (appartenant à l'utilisateur bandit7 propriété du groupe bandit6 33 octets de taille) et pour effectuer on utilise la commande 
+"find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null" et ensuite pour trouver le mot de passe  on utilise la commande "cat /var/lib/dpkg/info/bandit7.password":
+      -"find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null",
+      -"cat /var/lib/dpkg/info/bandit7.password"et récupérer le mot de passe,
+      -exit,
+      -ssh bandit7@bandit.labs.overthewire.org -p 2220,
+      -mot de passe :le  mot de passe trouve ( z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S)
+   
+
+

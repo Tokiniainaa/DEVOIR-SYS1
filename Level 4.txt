@@ -1,0 +1,11 @@
+l'étape reste la même  ,mais dans ce niveau le mot de passe se trouves dans un dossier appelé "inhere" 
+alors il faut se placer dans ce dossier en utilisant la commande "cd inhere",et dans ce dossier il y a un fichier appelé ".hidden",
+c'est dans ce fichier que le mot de passe se trouve
+et utiliser la commande "cat '.hidden'":
+   -ls 
+   -"cd inhere" et récupérer le mot de passe
+   -cat ".hidden"
+   -exit 
+   -ssh bandit4@bandit.labs.overthewire.org -p 2220
+   -mot de passe :c'est le mot de passe trouvé dans le dossier inhere (2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe)
+

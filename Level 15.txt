@@ -1,0 +1,9 @@
+Le mot de passe de ce niveau  peut être récupéré en soumettant 
+le mot de passe du niveau actuel au port 30000 sur localhost .On effectue ses commandes suivantes:
+    -Utiliser Telnet pour connecter au port 30000  à l'aide du commande "telnet localhost 30000"
+    -Soumettre le mot de passe du niveau actuel qui est (fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq)  puis 
+      on obtiendra le mot de passe pour le niveau suivant et on la récupère,
+    -Exit ,
+    -ssh  bandit15@bandit.labs.overthewire.org -p 2220
+    -mot de passe :le mot de passe qu'on a recuperer (jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt)
+

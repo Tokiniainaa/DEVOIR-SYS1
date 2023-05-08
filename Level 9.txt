@@ -1,0 +1,9 @@
+Le mot de passe pour ce niveau  est stocké dans le fichier data.txt et est la seule ligne de texte qui n'apparaît qu'une seule fois,pour effectuer cela ,on utilise la commande 
+"sort data.txt | uniq -u":
+   -"sort data.txt | uniq -u"et récuperer le mot de passe,
+    -exit,
+    -ssh bandit9@bandit.labs.overthewire.org -p 2220,
+     -mot de passe : Le mot de passe pour ce niveau  est stocké dans le fichier data.txt et est la seule 
+     ligne de texte qui n'apparaît qu'une seule fois(EN632PlfYiZbn3PhVK3XOGSlNInNE00t).
+
+

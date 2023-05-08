@@ -1,0 +1,43 @@
+Le mot de passe pour ce niveau  est stocké dans le fichier data.txt , 
+qui est un vidage hexadécimal d'un fichier qui a été compressé à plusieurs reprises.Pour la récupérer ,il y a plusieur etape a suivre avec ses commandes suivants:
+   - 
+      *Créer un répertoire sous /tmp avec la commande "/tmp/name123"
+      *Copier le data.txt dans le dossier name123    "cp data.txt /tmp/name123"
+      *Naviguer dans le dossier name               "cd /tmp/name123"
+      *vérifier si le fichier data.txt est bien copié "ls"
+      *Effectuer un vidage hexadécimale inverse et une sortie dans un nouveau fichier nommé data
+      "xxd -r data.txt data"
+      *
+         **Déterminer le type de fichier 
+         **Changer le fichier de sortie en son type de fichier indique dans les étapes précédentes
+         **décompressez les fichiers à l'aide du type de commande en fonction de l'extension de
+           fichier, Et pour effectuer tout cela on va utiliser ses commandes suivants:
+              ( -file data
+                -mv data data.gz
+                - gzip -d data.gz
+                - file data 
+                - mv data data.bz2 
+                - bzip2 -d data.bz2
+                - file data 
+                - mv data data.gz 
+                - gzip -d data.gz
+                - file data 
+                - mv data data.tar 
+                - tar xvf data.tar 
+                - file data5.bin 
+                - mv data5.bin data5.tar 
+                - tar xvf data5.tar 
+                - data6.bin
+                - fichier data6.bin 
+                - mv data6.bin data6.tar 
+                - tar xvf data6.tar 
+                - fichier data8.bin 
+                - mv data8.bin data8.gz 
+                - gzip -d data8.gz
+                - file data8 
+               - cat data8 ) et on récupère le mot de passe a la fin,
+      -Exit
+      -ssh bandit13@bandit.labs.overthewire.org -p 2220
+      -mot de passe :le mot de passe  qui est récupéré dans le fichier data8 (wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw).
+
+

@@ -1,0 +1,8 @@
+Même étape du niveau précédente , le nom de fichier dont le mot de passe se situe est "spaces in this filename":
+ -ls,
+ -'cat "spaces in this filename"'et récuperer le mot de passe,
+ -exit,
+ -"ssh bandit3@bandit.labs.overthewire.org -p 2220"
+ -mot de passe:le mot de passe qu'on a trouver dans le fichier "spaces in this filename" (aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG)
+
+

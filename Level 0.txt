@@ -1,0 +1,6 @@
+Premièrement,il faut connecter sur l'hôte "bandit.labs.overthewire.org".Et pour effectuer cela on utilise la commande "ssh bandit0@bandit.labs.overthewire.org -p 2220 ".
+"bandit0" c'est le nom de l'utilisateur et "-p 2220" c'est le port  de l'hôte, et enfin écrire le mot de passe de connexion qui est "bandit0":
+    -ssh bandit0@bandit.labs.overthewire.org -p 2220,
+    -mot de passe : bandit0
+ 
+

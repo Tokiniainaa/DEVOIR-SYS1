@@ -1,0 +1,8 @@
+Le mot de passe pour ce niveau  est stocké dans le fichier data.txt à côté du mot "millionth" ,
+alors pour le chercher on utilise la commande "grep  millionth data.txt":
+  -"grep  millionth data.txt"et récupérer le mot de passe,
+   -exit, 
+   -ssh bandit8@bandit.labs.overthewire.org -p 2220
+    -mot de passe :mot de passe dans le fichier data.txt à côté du mot "millionth" (  TESKZC0XvTetK0S9xNwm25STk5iWrBvP).
+
+

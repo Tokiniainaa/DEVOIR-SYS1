@@ -1,0 +1,8 @@
+Le mot de passe pour ce niveau  est stocké dans le fichier data.txt , qui contient des données encodées en base64,
+donc on va utiliser la commande "base64 -d data.txt":
+    -"base64 -d data.txt"et récuperer le mot de passe,
+    -exit 
+    -ssh bandit11@bandit.labs.overthewire.org -p 2220
+    -mot de passe :Le mot de passe trouvé  dans le fichier data.txt , qui contient des données encodées 
+      en base64(6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM)
+

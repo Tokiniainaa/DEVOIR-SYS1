@@ -1,0 +1,8 @@
+Le mot de passe pour ce niveau  peut être récupéré en soumettant le mot de passe du niveau actuel au port 30001 
+sur localhost en utilisant le cryptage SSL.On va utiliser la commande :
+     -openssl s_client -connect localhost:30001 (connecter au port 30001)
+     -On va soumettre le mot de passe actuel (jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt) pour obtenir le mot de passe de ce niveau et
+      on récupéré le mot de passe 
+     -ssh bandit16@bandit.labs.overthewire.org -p 2220
+     -le mot de passe: Le mot de passe  récupéré (JQttfApK4SeyHwDlI9SXGR50qclOAil1)
+
