@@ -1,7 +1,7 @@
 Le mot de passe pour ce niveau  est stocké dans le fichier data.txt , 
 qui est un vidage hexadécimal d'un fichier qui a été compressé à plusieurs reprises.Pour la récupérer ,il y a plusieur etape a suivre avec ses commandes suivants:
    - 
-      *Créer un répertoire sous /tmp avec la commande "/tmp/name123"
+      *Créer un répertoire sous /tmp avec la commande "mkdir /tmp/name123"
       *Copier le data.txt dans le dossier name123    "cp data.txt /tmp/name123"
       *Naviguer dans le dossier name               "cd /tmp/name123"
       *vérifier si le fichier data.txt est bien copié "ls"
